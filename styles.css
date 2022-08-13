@@ -1,0 +1,117 @@
+
+main{
+    align-items: center;
+    margin-left: 165px;
+}
+
+/* NAV */
+header{
+    display: flex;
+    column-gap: 780px;
+    margin-top:55px;  
+}
+
+header img{
+    margin-left: 165px;
+    width: 40px;
+    height: 40px;
+    align-self: center;
+}
+
+.headerbutton{
+    width:175px;
+    height:58px;
+    border-radius: 8px;
+    border: none;
+    margin-right: 165px;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #162542;
+    text-transform: uppercase;
+}
+
+.headerbutton:hover{
+    cursor: pointer;
+    background-color: #162542;
+    color: #E8EFF2;
+}
+
+/* INTRODUCTION */
+.Introduction{
+    display: flex;
+    column-gap: 124px;
+}
+
+.Introduction img{
+    width:490px;
+    height: 430px;
+    border-radius: 8px;  
+    margin-top: 10%; 
+    margin-left: -3%;
+}
+
+.Content{
+    width: 445px;
+    align-self: center;
+}
+
+.Content h4{
+    width: 445px;
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 56px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: uppercase;
+    color: #162542;
+}
+
+.Content p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 500;
+    margin-top: -5%;   
+    color:#7b8BAD ;
+}
+
+.btn-container{
+    display: flex;
+    margin-top: 5%;
+}
+
+.btn-container button{
+    width:175px;
+    height:58px;
+    background-color:#f16718;
+    border: none;
+    border-radius: 8px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+}
+.btn-container p{
+    margin: auto;
+    text-transform: uppercase;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.btn-container button:hover{
+    background-color: #FF9B62;
+    color: white; 
+    cursor: pointer;
+
+}
+
+
+
+
+
+
+
+
+
+
