@@ -1,6 +1,5 @@
 main {
   align-items: center;
-  /* margin-left: 165px; */
   margin: 0 165px 0 165px;
 }
 
@@ -41,7 +40,7 @@ header img {
 /* INTRODUCTION */
 .Introduction {
   display: flex;
-  column-gap: 124px;
+  column-gap: 104px;
 }
 
 .Introduction img {
@@ -166,7 +165,7 @@ header img {
 
 .Icon-feature {
   width: 255px;
-  height: 323px;
+  height: 323px
 }
 
 .Feature h4 {
