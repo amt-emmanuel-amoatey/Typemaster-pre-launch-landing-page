@@ -266,7 +266,8 @@ footer{
   body{
     width:768px;
     height: 2128px;
-    margin: 0 40px 0 40px;
+    /* margin: 0 40px 0 40px; */
+    margin: 0 75px 0 75px;
     overflow-x: hidden;
   }
 
@@ -277,7 +278,6 @@ footer{
 
   header {
     display: flex;
-    /* column-gap: 500px; */
     column-gap: 500px;
     /* margin-top: 55px; */
     /* margin: 55px 40px 0 40px; */
