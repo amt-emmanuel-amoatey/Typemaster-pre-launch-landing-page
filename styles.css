@@ -290,6 +290,19 @@ footer{
  
   .Product{
     margin-top: 550px;
+    column-gap: 150px;
+  }
+
+  .Opaque-Image{
+    width: 129px;
+    height: 193px;
+    margin-left: 0;
+
+  }
+
+  .Keyboard-With-Glass{
+    width: 220px;
+    height: 193px;
   }
 
   .Description{
@@ -298,7 +311,7 @@ footer{
 }
 
 .Feature{
-  margin-top: 900%;
+  margin-top: 1500%;
    display: flex;
    flex-direction: column;
 }
