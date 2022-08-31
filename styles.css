@@ -330,9 +330,6 @@ footer{
 }
 
 
-
-
-
 }
 
 /* MEDIA QUERY FOR TABLET */
@@ -341,7 +338,7 @@ footer{
     width:768px;
     height: 2128px;
     /* margin: 0 40px 0 40px; */
-    margin: 0 75px 0 75px;
+    /* margin: 0 75px 0 75px; */
     overflow-x: hidden;
   }
 
@@ -401,9 +398,12 @@ footer{
 
   .Feature {
     display: grid;
-    margin-top: 300px; 
+    /* margin-top: 300px;  */
+    margin:300px 40px 0 40px;
     column-gap: 30px;
     grid-template-columns: 1fr 1fr;
+    gap: 100px;
+    
   }
   
 
