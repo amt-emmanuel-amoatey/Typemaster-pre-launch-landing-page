@@ -1,13 +1,13 @@
 
 body{
-  width: 1440px;
-  height: 1870px;
+  /* width: 1440px; */
+  /* height: 1870px; */
   overflow-x: hidden;
 }
 
 main {
+  margin: 0 30px 0 30px;
   align-items: center;
-  margin: 0 165px 0 165px;
   /* overflow-x: hidden; */
 }
 
@@ -15,20 +15,21 @@ main {
 header {
   display: flex;
   /* column-gap: 780px; */
-  column-gap: 870px;
-  margin-top: 55px;
+  column-gap: 200px;
+  margin: 55px 30px 0 30px;
+  justify-content: space-between;
 }
 
 header img {
-  margin-left: 165px;
+  /* margin-left: 165px; */
   width: 40px;
   height: 40px;
   align-self: center;
 }
 
 .headerbutton {
-  width: 175px;
-  height: 58px;
+  /* width: 27em; */
+  /* height: 58px; */
   border-radius: 8px;
   border: none;
   /* margin-right: 165px; */
@@ -49,7 +50,8 @@ header img {
 /* INTRODUCTION */
 .Introduction {
   display: flex;
-  column-gap: 104px;
+  column-gap: 130px;
+  /* justify-content: space-between; */
   /* column-gap: 50px; */
   
 }
@@ -141,9 +143,9 @@ header img {
 }
 
 .Description {
-  width: 255px;
-  height: 265px;
-  margin: 50px 127px;
+  /* width: 255px; */
+  /* height: 265px; */
+  margin: 50px 100px;
 }
 
 .Description h4 {
@@ -239,18 +241,47 @@ footer{
 
 
   /* MOBILE VIEW */
-@media (min-width: 375px) and (max-width: 667px){
+@media (min-width: 320px) and (max-width: 428px){
+  body{
+    /* width:100%;
+    height: 2128px; */
+    /* margin: 0 40px 0 40px; */
+    /* margin: 0 90px 0 90px; */
+    /* overflow-x: hidden; */
+  }
+
+  .headerbutton {
+    /* width: 151px; */
+    /* height: 48px; */
+    border-radius: 8px;
+    border: none;
+    /* margin-right: 165px; not part when commenting in*/
+    font-weight: 700;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    color: #162542;
+    text-transform: uppercase;
+    /* padding: 5%; */
+  }
+
+  header {
+    display: flex;
+    /* column-gap: 780px; not part when committing in*/
+    /* column-gap: 20px; not part when commenting in*/
+    margin-top: 55px;
+  }
 
   body{
-    width: 375px;
-    height: 667px;
-    margin: 0 24px 0 24px;
+    /* margin: 0 24px 0 24px; not part when commenting in */
     overflow-x: hidden;
+    
   }
     
   main {
     align-items: center;
-    /* margin: 0 24px 0 24px; */
+    overflow-x: hidden;
+    /* margin: 0 24px 0 24px; not part when commenting in*/
   }
 
   header {
@@ -261,16 +292,17 @@ footer{
     /* margin-top: 55px;  not part when commnitng in */
   }
 
+  
   .Content {
     width: 327px;
     height: 286px;
-    align-self: center;
-    margin: 0 24px 0 24px;
+    align-items: center;
+    /* margin: 0 24px 0 24px; */
   }
 
   .Content h4 {
     width: 327px;
-    /* height: 96px; */ 
+    height: 96px;  
     font-weight: 900;
     font-size: 56px;
     line-height: 56px;
@@ -282,39 +314,79 @@ footer{
 
   .Introduction img {
     position: absolute;
-    margin-top: 120%;
+    margin-top: 500px;
+    /* margin-left: 55px; not part when commiting in*/
     width: 372px;
     height: 331px;
+    /* margin-left: 100px; not part when commenting in*/
+    align-items: center;
   }
+
+  
 
  
   .Product{
-    margin-top: 550px;
+    /* margin-top: 550px; */
     column-gap: 150px;
+    /* width: 373px; */
+    /* height: 193px; */
+    align-items: center;
+    margin-top: 800px;
+    /* margin-left: -22px; */
   }
 
   .Opaque-Image{
-    width: 129px;
+    width: 129px; 
     height: 193px;
-    margin-left: 0;
-
+    margin-left:0 ;
+     /* margin-left: -175px;  */
   }
 
   .Keyboard-With-Glass{
     width: 220px;
     height: 193px;
+    /* border-radius: 500%; */
+    /* margin-left: -50px; */
   }
 
   .Description{
     position: absolute;
-    margin-top: 130%; 
+    margin-top: 1000px;
+    /* align-items: center; */
+}
+
+.Description h4{
+  /* width: 225px;
+  height: 108px; */
+  line-height: 36px;
+  text-align: unset;
+  /* justify-content: center; */
+  /* align-items: center; */
 }
 
 .Feature{
-  margin-top: 1500%;
+  margin-top: 700px;
    display: flex;
    flex-direction: column;
+   gap: 100px;
+   align-items: center;
+   justify-content: center;
+   /* width: 300px; */
 }
+
+/* align-self: center; */
+.Icon-feature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.Icon-feature h4, .Icon-feature p {
+  text-align: center;
+}
+
+
 
 footer{
   font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -325,20 +397,30 @@ footer{
   margin: 24px 24px 0 24px;
   /* color: red; */
   width: 372px;
-
-
 }
 
-
+.Feature p {
+  width: 255px;
+  height: 130px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  font-size: 16px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #7b8bad;
+  justify-items: center;
+  
+}
 }
 
 /* MEDIA QUERY FOR TABLET */
-@media (min-width: 768px) and (max-width: 1024px){
+@media (min-width: 768px) and (max-width: 1023px){
   body{
     width:768px;
     height: 2128px;
     /* margin: 0 40px 0 40px; */
-    /* margin: 0 75px 0 75px; */
+    /* margin: 0 90px 0 90px; */
     overflow-x: hidden;
   }
 
@@ -349,8 +431,9 @@ footer{
 
   header {
     display: flex;
-    column-gap: 500px;
-    /* margin-top: 55px; */
+    /* column-gap: 500px; */
+    justify-content: space-between;
+    margin-top: 55px;
     /* margin: 55px 40px 0 40px; */
   }
 
@@ -366,7 +449,8 @@ footer{
     position:absolute;
     display: flex;
     column-gap: 39px;
-    width: 689px;
+    /* justify-content: space-between; */
+    /* width: 689px; */
     align-items: center;
     height: 108px;
     /* margin-top: 60%; */
@@ -405,9 +489,18 @@ footer{
     gap: 100px;
     
   }
-  
 
+  footer{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:#7B8BAD;
+    text-align: center;
+    margin-top: 100px;
+    font-size:16px;
+    font-weight: 700;
+    padding: 50px;
+  }
 }
+
 
 
 
