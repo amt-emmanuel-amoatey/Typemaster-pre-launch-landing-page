@@ -74,8 +74,9 @@ header img {
 
 .Content h4 {
   /* width: 445px; */
+  position: relative;
   font-weight: 900;
-  font-size: 56px;
+  font-size: 45px;
   line-height: 56px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -148,7 +149,9 @@ header img {
 .Description {
   /* width: 255px; */
   /* height: 265px; */
-  margin: 50px 100px;
+  margin-top: 100px;
+  align-content: center;
+  /* margin: 50px 100px; */
 }
 
 .Description h4 {
@@ -181,7 +184,7 @@ header img {
 
 .Icon-feature {
   width: 255px;
-  height: 323px
+  height: 323px;
 }
 
 .Feature h4 {
@@ -240,10 +243,6 @@ footer{
 }
 
 
-
-
-
-
   /* MOBILE VIEW */
 @media (min-width: 320px) and (max-width: 428px){
  
@@ -265,7 +264,7 @@ footer{
     align-items: center;
     overflow-x: hidden;
     margin:0 0 0 0 0;
-     }
+    }
 
   
   .Content {
@@ -279,47 +278,94 @@ footer{
     width: 290px;
   }
 
+  .Content {
+    /* position: absolute; */
+    width: 327px;
+    height: 286px;
+    left: 24px;
+    top: 135px;
+  }
+
   .Introduction img {
     position: absolute;
-    margin-top: 500px;
+    /* margin-top: 500px; */
     border-radius: 20px;
     /* margin-left: 55px; not part when commiting in*/
     width: 372px;
     height: 331px;
+    top: 485px;
+    left: 24px;
     /* margin-left: 100px; not part when commenting in*/
     /* align-items: center; */
   }
+
+  .Content h4 {
+    
+  }
+  /* .btn-container p {
+    position: absolute;
+    height: 26px;
+    left: 58.71%;
+    right: 0.32%;
+    bottom: auto;
+  } */
 
   .Product{
     width:373vw ;
     height: auto;
     /* height: 193px; */
     margin-top: 560px;
-    gap: 100px;
+    /* gap: 100px; */
     /* position: absolute; */
+  }
+
+  .Product img {
+    position: absolute;
+    margin-top: 50px;
+    
+  }
+
+  .Product .Opaque-Image img {
+    /* position: absolute; */
+    width: 129px;
+    height: 193px;
+    left: -10px;
+    top: 840px;
+    opacity: 0.75;
+    background-image: url(./images/mobile/image-phone-and-keyboard.jpg);
+    mix-blend-mode: multiply;
+    background: #f16718;
+    border-radius: 20px;
+  }
+
+  .Product .Keyboard-With-Glass img {
+    /* position: absolute; */
+    width: 220px;
+    height: 193px;
+    left: 131px;
+    top: 840px;
   }
 
   .Opaque-Image{
     /* margin-left: 0px; */
-    width: 109px;
-    height: 193px;
+    /* width: 109px; */
+    /* height: 193px; */
     margin-left:-36x ; 
   }
 
-  /* .Keyboard-With-Glass{
+  .Keyboard-With-Glass{
     width: 220px;
     height: 193px;
-  } */
+  }
 
  
 
   .Description{
     position: absolute;
     margin-top: 500px;
-    /* display: block; */
-    align-items: center;
-    justify-content: center;
-}
+    display: block;
+    text-align: center;
+  }
 
 .Description h4{
   /* width: 225px;
