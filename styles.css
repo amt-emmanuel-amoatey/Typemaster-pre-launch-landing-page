@@ -5,6 +5,8 @@ body{
   overflow-x: hidden;
 }
 
+
+
 main {
   margin: 0 30px 0 30px;
   align-items: center;
@@ -15,20 +17,21 @@ main {
 header {
   display: flex;
   /* column-gap: 780px; */
-  column-gap: 200px;
-  margin: 55px 30px 0 30px;
+  /* column-gap: 200px; */
+  /* margin: 55px 30px 0 30px; */
   justify-content: space-between;
 }
 
 header img {
+  margin-left: 30px;
   /* margin-left: 165px; */
-  width: 40px;
-  height: 40px;
-  align-self: center;
+  /* width: 40px; */
+  /* height: 40px; */
+  /* align-self: center; */
 }
 
 .headerbutton {
-  /* width: 27em; */
+  /* width: 15w; */
   /* height: 58px; */
   border-radius: 8px;
   border: none;
@@ -231,8 +234,9 @@ footer{
   font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color:#7B8BAD;
   text-align: center;
-  margin-top: 20%;
+  margin-top: 30%;
   font-size:16px;
+  
 }
 
 
@@ -242,64 +246,37 @@ footer{
 
   /* MOBILE VIEW */
 @media (min-width: 320px) and (max-width: 428px){
-  body{
-    /* width:100%;
-    height: 2128px; */
-    /* margin: 0 40px 0 40px; */
-    /* margin: 0 90px 0 90px; */
-    /* overflow-x: hidden; */
-  }
-
-  
-
+ 
   header {
     display: flex;
-    /* column-gap: 780px; not part when committing in*/
-    /* column-gap: 20px; not part when commenting in*/
     margin-top: 55px;
-    
+  }
+  .headerbutton{
+    width: 50vw;
   }
 
   body{
     /* margin: 0 24px 0 24px; not part when commenting in */
     overflow-x: hidden;
-    
+    margin: 0 0 0 0;
   }
     
   main {
     align-items: center;
     overflow-x: hidden;
-    /* margin: 0 24px 0 24px; not part when commenting in*/
-  }
-
-  header {
-    /* display: flex; */
-    /* justify-content: space-between; */
-    /* margin-top: 55px; */
-    /* column-gap: 327px; */
-    /* width: 327px; */
-    /* height: 48px; */
-    /* margin-top: 55px;  not part when commnitng in */
-  }
+    margin:0 0 0 0 0;
+     }
 
   
   .Content {
-    width: 327px;
+    width: 290px;
     height: 286px;
     align-items: center;
     /* margin: 0 24px 0 24px; */
   }
 
-  .Content h4 {
-    width: 327px;
-    height: 96px;  
-    font-weight: 900;
-    font-size: 56px;
-    line-height: 56px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    text-transform: uppercase;
-    color: #162542;
+  .Content h4{
+    width: 290px;
   }
 
   .Introduction img {
@@ -313,48 +290,51 @@ footer{
     /* align-items: center; */
   }
 
-  
-
- 
   .Product{
-    /* margin-top: 550px; */
-    column-gap: 150px;
-    /* width: 373px; */
+    width:373vw ;
+    height: auto;
     /* height: 193px; */
-    align-items: center;
-    margin-top: 800px;
-    /* margin-left: -22px; */
+    margin-top: 560px;
+    gap: 100px;
+    /* position: absolute; */
   }
 
   .Opaque-Image{
-    width: 129px; 
+    /* margin-left: 0px; */
+    width: 109px;
     height: 193px;
-    margin-left:0 ;
-     /* margin-left: -175px;  */
+    margin-left:-36x ; 
   }
 
-  .Keyboard-With-Glass{
+  /* .Keyboard-With-Glass{
     width: 220px;
     height: 193px;
-    /* border-radius: 500%; */
-    /* margin-left: -50px; */
-  }
+  } */
+
+ 
 
   .Description{
     position: absolute;
-    margin-top: 300%;
-    display: block;
+    margin-top: 500px;
+    /* display: block; */
     align-items: center;
+    justify-content: center;
 }
 
 .Description h4{
   /* width: 225px;
   height: 108px; */
   line-height: 36px;
-  /* justify-content: center; */
-  /* align-items: center; */
+  display: block;
+  justify-content: center;
+  align-items: center;
 }
+ .Description P{
+  display: block;
+  align-items: center;
+  justify-content: center;
 
+ }
 .Feature{
   margin-top: 700px;
    display: flex;
@@ -377,31 +357,8 @@ footer{
   text-align: center;
 }
 
-
-
 footer{
-  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  color:#7B8BAD;
-  text-align: center;
-  /* margin-top: 20%; */
-  font-size:16px;
-  margin: 24px 24px 0 24px;
-  /* color: red; */
-  width: 372px;
-}
-
-.Feature p {
-  width: 255px;
-  height: 130px;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 26px;
-  font-size: 16px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  color: #7b8bad;
-  justify-items: center;
-  
+  padding: 5%;
 }
 }
 
@@ -411,7 +368,6 @@ footer{
     width:768px;
     height: 2128px;
     /* margin: 0 40px 0 40px; */
-    /* margin: 0 90px 0 90px; */
     overflow-x: hidden;
   }
 
@@ -420,47 +376,23 @@ footer{
     margin: 0 40px 0 40px;
   }
 
-  header {
-    display: flex;
-    /* column-gap: 500px; */
-    justify-content: space-between;
-    margin-top: 55px;
-    /* margin: 55px 40px 0 40px; */
-  }
-
   header img {
     margin-left: 40px;
     width: 40px;
     height: 40px;
-    /* align-self: center; */
   }
 
-
-
+  .Product img{
+    border-radius: 30px;
+  }
 
   .Description {
-    /* margin: 50px 127px; */
     position:absolute;
     display: flex;
     column-gap: 39px;
-    /* justify-content: space-between; */
-    /* width: 689px; */
     align-items: center;
     height: 108px;
-    /* margin-top: 60%; */
     margin:550px 40px 0 40px;
-  }
-
-  .Description h4 {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-weight: 900;
-    font-size: 32px;
-    line-height: 36px;
-    text-transform: uppercase;
-    color: #162542;
-    width: 225px;
-    /* height: 108px; */
   }
 
   .Description p {
@@ -471,17 +403,14 @@ footer{
     line-height: 26px;
     color: #7b8bad;
     width: 398px;
-        /* height: 78px; */
   }
 
   .Feature {
     display: grid;
-    /* margin-top: 300px;  */
     margin:300px 40px 0 40px;
     column-gap: 30px;
     grid-template-columns: 1fr 1fr;
     gap: 100px;
-    
   }
 
   footer{
