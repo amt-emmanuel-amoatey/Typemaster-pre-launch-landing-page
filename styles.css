@@ -375,7 +375,7 @@ footer{
   /* align-items: center; */
   position: absolute;
   text-align: center;
-  top: 1050px;
+  top: 1055px;
   left: 60px;
 }
 
@@ -383,12 +383,20 @@ footer{
   /* display: block; */
   /* align-items: center; */
   /* justify-content: center; */
+  position: absolute;
+  margin-top: 170px;
+  margin-left:-230px;
+  text-align: center;
+  line-height: 30px;
+  display: block;
+  /* text-justify: center; */
+
  }
  
 
  
 .Feature{
-  margin-top: 700px;
+  margin-top: 300px;
    display: flex;
    flex-direction: column;
    gap: 100px;
