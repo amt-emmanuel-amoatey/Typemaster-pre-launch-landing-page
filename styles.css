@@ -1,10 +1,10 @@
-
-body{
+body {
   overflow-x: hidden;
 }
 
 main {
-  margin:0 30px 0 30px;
+  /* margin: 0 30px 0 30px; */
+  margin: 0 165px 0 165px;
   align-items: center;
 }
 
@@ -12,13 +12,8 @@ main {
 header {
   display: flex;
   justify-content: space-between;
-  /* margin-right: 30px; */
-  margin: 55px 30px 0 30px
-
-}
-
-header img {
-  /* margin-left: 30px; */
+  /* margin: 55px 30px 0 30px; */
+  margin: 55px 165px 0 165px;
 }
 
 .headerbutton {
@@ -41,7 +36,6 @@ header img {
 /* INTRODUCTION */
 .Introduction {
   display: flex;
-  /* column-gap: 130px; */
   justify-content: space-between;
 }
 
@@ -55,9 +49,6 @@ header img {
 .Content {
   width: 445px;
   height: 312px;
-  /* font-size: 18px; */
-  /* line-height: 26px; */
-  /* font-weight: 500; */
   align-self: center;
 }
 
@@ -109,6 +100,7 @@ header img {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 700;
   font-size: 16px;
+  line-height: 26px;
 }
 
 .btn-container button:hover {
@@ -118,10 +110,14 @@ header img {
 }
 
 /* PRODUCT */
+.Opaque Image {
+  background-color: #f16718;
+}
 .Opaque-Image img {
   width: 225px;
   height: 480px;
   border-radius: 8px;
+  mix-blend-mode: darken;
 }
 
 .Keyboard-With-Glass img {
@@ -138,9 +134,11 @@ header img {
 }
 
 .Description {
-  margin-top: 100px;
+  /* margin-top: 100px; */
   align-content: center;
-  margin-left: 80px;
+  /* margin-left: 80px; */
+  width: 255px;
+  height: 294px;
 }
 
 .Description h4 {
@@ -152,22 +150,25 @@ header img {
   text-transform: uppercase;
   color: #162542;
   width: 225px;
+  height:108px ;
 }
 
 .Description p {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-   Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
   color: #7b8bad;
   width: 225px;
+  height: 130px;
 }
 
 /* FEATURE */
 .Feature {
-  display: flex;
-  margin-top: 100px; 
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  margin-top: 100px;
   column-gap: 30px;
 }
 
@@ -222,46 +223,44 @@ header img {
    position: absolute;
 } */
 
-footer{
-  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  color:#7B8BAD;
+footer {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #7b8bad;
   text-align: center;
   margin-top: 30%;
-  font-size:16px;
+  font-size: 16px;
 }
 
-
-  /* MOBILE VIEW */
-@media (min-width: 320px) and (max-width: 428px){
- 
+/* MOBILE VIEW */
+@media (min-width: 320px) and (max-width: 428px) {
   header {
     display: flex;
     margin-top: 55px;
   }
 
-  .headerbutton{
+  .headerbutton {
     width: 50vw;
   }
 
-  body{
+  body {
     overflow-x: hidden;
     margin: 0 0 0 0;
   }
-    
+
   main {
     align-items: center;
     overflow-x: hidden;
-    margin:0 0 0 0 0;
-    }
+    margin: 0 0 0 0 0;
+  }
 
-  
   .Content {
     width: 290px;
     height: 286px;
     align-items: center;
   }
 
-  .Content h4{
+  .Content h4 {
     width: 290px;
     font-size: 39px;
   }
@@ -282,8 +281,8 @@ footer{
     left: 24px;
   }
 
-  .Product{
-    width:373vw ;
+  .Product {
+    width: 373vw;
     height: auto;
     margin-top: 560px;
   }
@@ -308,63 +307,61 @@ footer{
     top: 840px;
   }
 
-  .Opaque-Image{
-    margin-left:-36x ; 
+  .Opaque-Image {
+    margin-left: -36x;
   }
 
-  .Keyboard-With-Glass{
+  .Keyboard-With-Glass {
     width: 220px;
     height: 193px;
   }
 
-.Description h4{
-  justify-content: center;
-  position: absolute;
-  text-align: center;
-  top: 1055px;
-  left: 70px;
-}
+  .Description h4 {
+    justify-content: center;
+    position: absolute;
+    text-align: center;
+    top: 1055px;
+    left: 70px;
+  }
 
- .Description P{
-  position: absolute;
-  margin-top: 180px;
-  margin-left:-290px;
-  text-align: center;
-  line-height: 30px;
-  display: block;
+  .Description P {
+    position: absolute;
+    margin-top: 180px;
+    margin-left: -290px;
+    text-align: center;
+    line-height: 30px;
+    display: block;
+  }
 
- }
-  
-.Feature{
-  margin-top: 300px;
-   display: flex;
-   flex-direction: column;
-   gap: 100px;
-   align-items: center;
-   justify-content: center;
-   
-}
+  .Feature {
+    margin-top: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+  }
 
-.Icon-feature {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  
-}
+  .Icon-feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
-.Icon-feature h4, .Icon-feature p {
-  text-align: center;
-}
+  .Icon-feature h4,
+  .Icon-feature p {
+    text-align: center;
+  }
 
-footer{
-  padding: 5%;
-}
+  footer {
+    padding: 5%;
+  }
 }
 
 /* MEDIA QUERY FOR TABLET */
-@media (min-width: 768px) and (max-width: 1023px){
-  body{
-    width:768px;
+@media (min-width: 768px) and (max-width: 1023px) {
+  body {
+    width: 768px;
     height: 2128px;
     overflow-x: hidden;
   }
@@ -380,22 +377,23 @@ footer{
     height: 40px;
   }
 
-  .Product img{
+  .Product img {
     border-radius: 30px;
   }
 
   .Description {
-    position:absolute;
+    position: absolute;
     display: flex;
     column-gap: 39px;
     align-items: center;
     height: 108px;
-    margin:550px 40px 0 40px;
+    margin: 550px 40px 0 40px;
   }
 
   .Description p {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+      sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
@@ -405,46 +403,35 @@ footer{
 
   .Feature {
     display: grid;
-    margin:300px 40px 0 40px;
+    margin: 300px 40px 0 40px;
     column-gap: 30px;
     grid-template-columns: 1fr 1fr;
     gap: 100px;
   }
 
-  footer{
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color:#7B8BAD;
+  footer {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+      sans-serif;
+    color: #7b8bad;
     text-align: center;
     margin-top: 100px;
-    font-size:16px;
+    font-size: 16px;
     font-weight: 700;
     padding: 50px;
   }
 }
 
-.bg-lay{
+.bg-lay {
   height: 400px;
   width: 400px;
   border: 2px solid green;
-  background-image: url('images/image-phone-and-keyboard.jpg');
+  background-image: url("images/image-phone-and-keyboard.jpg");
 }
 
-.color{
+.color {
   height: 100%;
   width: 100%;
   background-color: #f16718;
   opacity: 0.9;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
