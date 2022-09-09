@@ -231,49 +231,54 @@ footer {
   text-align: center;
   padding: 10%;
   font-size: 16px;
-  
-
 }
 
 /* MOBILE VIEW */
 @media (min-width: 320px) and (max-width: 428px) {
-  header {
-    display: flex;
-    margin-top: 55px;
-  }
-
-  .headerbutton {
-    width: 50vw;
-  }
-
   body {
     overflow-x: hidden;
-    margin: 0 0 0 0;
+    width: 375px;
+    height: 3007px; 
+  }
+  
+  header {
+    margin: 24px  24px 0 24px
   }
 
   main {
-    align-items: center;
     overflow-x: hidden;
-    margin: 0 0 0 0 0;
+    margin: 0 24px 0 24px;
   }
 
   .Content {
-    width: 290px;
-    height: 286px;
-    align-items: center;
+    /* width: 327px; */
+    /* height: 286px; */
+    /* align-items: center; */
   }
 
   .Content h4 {
-    width: 290px;
-    font-size: 39px;
+    width: 327px;
+    height: 96px;
+    font-size: 48px;
+    line-height: 48px;
+    font-weight: 900;
   }
 
-  .Content {
-    width: 327px;
-    height: 286px;
-    left: 24px;
-    top: 135px;
+  .Content p{
+    /* width: 327px; */
+    /* height:78px; */
+    line-height: 26px;
+    margin-top: 32px;
+    /* font-weight: 500; */
   }
+  
+  
+
+  .btn-container{
+    display: flex;
+    column-gap: 19px;
+  }
+
 
   .Introduction img {
     position: absolute;
@@ -281,12 +286,13 @@ footer {
     width: 372px;
     height: 331px;
     top: 485px;
-    left: 24px;
+    left: 55px;
   }
 
   .Product {
     width: 373vw;
-    height: auto;
+    /* height: auto; */
+    height: 193px;
     margin-top: 560px;
   }
 
@@ -319,10 +325,24 @@ footer {
     height: 193px;
   }
 
+  .Description {
+    width:327px;
+    height: 236px;
+    /* vertical-align: top; */
+    /* align-items: center; */
+    /* justify-content: center; */
+  }
+
   .Description h4 {
     justify-content: center;
     position: absolute;
     text-align: center;
+    align-content: center;
+    width: 255px;
+    height: 108px;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 36px;
     top: 1055px;
     left: 70px;
   }
@@ -330,9 +350,20 @@ footer {
   .Description P {
     position: absolute;
     margin-top: 180px;
-    margin-left: -290px;
+    justify-content: center;
     text-align: center;
-    line-height: 30px;
+    align-content: center;
+    width: 327px;
+    height: 104px;
+    left: 24px;
+
+
+
+
+
+    /* margin-left: -290px; */
+    /* text-align: center; */
+    line-height: 135%;
     display: block;
   }
 
@@ -349,6 +380,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    
   }
 
   .Icon-feature h4,
@@ -357,7 +389,17 @@ footer {
   }
 
   footer {
-    padding: 5%;
+    margin-left: 51x;
+    margin-right: 52px;
+    font-size: 16px;
+    /* text-align: left; */
+    /* vertical-align: top; */
+    /* width: 272px; */
+    /* height: 26px; */
+    /* padding: 5%; */
+    /* justify-content: center; */
+    align-content: center;
+
   }
 }
 
