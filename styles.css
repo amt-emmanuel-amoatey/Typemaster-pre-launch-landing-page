@@ -110,13 +110,13 @@ header {
 }
 
 /* PRODUCT */
-.Opaque Image {
-  background-color: #f16718;
+.Opaque-Image {
+  background-color: #c55414;
+  border-radius: 8px;
 }
 .Opaque-Image img {
   width: 225px;
   height: 480px;
-  border-radius: 8px;
   mix-blend-mode: darken;
 }
 
@@ -126,19 +126,25 @@ header {
   border-radius: 8px;
 }
 
-.Product {
+.Keyboards{
   display: flex;
-  /* column-gap: 20px; */
-  justify-content: space-between;
+  column-gap: 30px;
   margin-top: 5%;
 }
 
+.Product {
+  display: flex;
+  /* column-gap: 20px; */
+  /* justify-content: space-between; */
+}
+
 .Description {
-  /* margin-top: 100px; */
-  align-content: center;
-  /* margin-left: 80px; */
-  width: 255px;
-  height: 294px;
+  /* display: flex; */
+  margin-top: 118px;
+  /* align-content: center; */
+  margin-left: 125px;
+  /* width: 255px; */
+  /* height: 294px; */
 }
 
 .Description h4 {
@@ -422,16 +428,3 @@ footer {
   }
 }
 
-.bg-lay {
-  height: 400px;
-  width: 400px;
-  border: 2px solid green;
-  background-image: url("images/image-phone-and-keyboard.jpg");
-}
-
-.color {
-  height: 100%;
-  width: 100%;
-  background-color: #f16718;
-  opacity: 0.9;
-}
