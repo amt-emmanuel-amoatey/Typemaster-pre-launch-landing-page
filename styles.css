@@ -234,8 +234,10 @@ footer {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: #7b8bad;
   text-align: center;
-  margin-top: 30%;
+  padding: 10%;
   font-size: 16px;
+  
+
 }
 
 /* MOBILE VIEW */
