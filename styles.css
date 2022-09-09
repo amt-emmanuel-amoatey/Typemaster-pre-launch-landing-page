@@ -250,12 +250,6 @@ footer {
     margin: 0 24px 0 24px;
   }
 
-  .Content {
-    /* width: 327px; */
-    /* height: 286px; */
-    /* align-items: center; */
-  }
-
   .Content h4 {
     width: 327px;
     height: 96px;
@@ -265,20 +259,14 @@ footer {
   }
 
   .Content p{
-    /* width: 327px; */
-    /* height:78px; */
     line-height: 26px;
     margin-top: 32px;
-    /* font-weight: 500; */
   }
   
-  
-
   .btn-container{
     display: flex;
     column-gap: 19px;
   }
-
 
   .Introduction img {
     position: absolute;
@@ -291,7 +279,6 @@ footer {
 
   .Product {
     width: 373vw;
-    /* height: auto; */
     height: 193px;
     margin-top: 560px;
   }
@@ -328,9 +315,6 @@ footer {
   .Description {
     width:327px;
     height: 236px;
-    /* vertical-align: top; */
-    /* align-items: center; */
-    /* justify-content: center; */
   }
 
   .Description h4 {
@@ -356,13 +340,6 @@ footer {
     width: 327px;
     height: 104px;
     left: 24px;
-
-
-
-
-
-    /* margin-left: -290px; */
-    /* text-align: center; */
     line-height: 135%;
     display: block;
   }
@@ -392,14 +369,7 @@ footer {
     margin-left: 51x;
     margin-right: 52px;
     font-size: 16px;
-    /* text-align: left; */
-    /* vertical-align: top; */
-    /* width: 272px; */
-    /* height: 26px; */
-    /* padding: 5%; */
-    /* justify-content: center; */
     align-content: center;
-
   }
 }
 
