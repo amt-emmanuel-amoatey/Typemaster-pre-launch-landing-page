@@ -1,18 +1,17 @@
 body {
   overflow-x: hidden;
+  width: 1440px;
+  height: 1870px;
 }
 
 main {
-  /* margin: 0 30px 0 30px; */
   margin: 0 165px 0 165px;
-  align-items: center;
 }
 
 /* NAV */
 header {
   display: flex;
   justify-content: space-between;
-  /* margin: 55px 30px 0 30px; */
   margin: 55px 165px 0 165px;
 }
 
@@ -134,17 +133,13 @@ header {
 
 .Product {
   display: flex;
-  /* column-gap: 20px; */
-  /* justify-content: space-between; */
 }
 
 .Description {
-  /* display: flex; */
-  margin-top: 118px;
-  /* align-content: center; */
+  margin-top: 134px;
   margin-left: 125px;
-  /* width: 255px; */
-  /* height: 294px; */
+  width: 255px; 
+  height: 265px;
 }
 
 .Description h4 {
@@ -155,7 +150,7 @@ header {
   line-height: 36px;
   text-transform: uppercase;
   color: #162542;
-  width: 225px;
+  width: 255px;
   height:108px ;
 }
 
@@ -166,7 +161,7 @@ header {
   font-size: 16px;
   line-height: 26px;
   color: #7b8bad;
-  width: 225px;
+  width: 255px;
   height: 130px;
 }
 
