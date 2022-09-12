@@ -211,19 +211,20 @@ header {
   height: 65px;
   border-radius: 8px;
 }
-
-/* .square1{
-  margin-top: -670px;
+/* DECORATIVE SQUARES */
+ .square1{
+  margin-top: -660px;
   margin-left: -280px;
   position: absolute;
-} */
+} 
 
-/* .square2{
-   margin-left: 1140px;
+.square2{
+   margin-left: 1110px;
    margin-top:-1440px;
    position: absolute;
-} */
+} 
 
+/* FOOTER */
 footer {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -232,6 +233,7 @@ footer {
   padding: 10%;
   font-size: 16px;
 }
+
 
 /* MOBILE VIEW */
 @media (min-width: 300px) and (max-width: 428px) {
