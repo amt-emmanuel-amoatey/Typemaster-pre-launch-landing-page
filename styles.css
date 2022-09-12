@@ -294,9 +294,9 @@ footer {
   .Product .Opaque-Image img {
     width: 129px;
     height: 193px;
-    left: -10px;
-    top: 840px;
     border-radius: 20px;
+    margin-top: 0%;
+
   }
 
   .Product .Keyboard-With-Glass img {
@@ -307,15 +307,14 @@ footer {
   }
 
   .Opaque-Image {
-    /* margin-left: -36x; */
     width: 129px;
     height: 193px;
     border-radius: 20px;
-    margin-left: 0px;
-    margin-top: -101px;
-    /* position: absolute; */
-    /* left: -10px; */
-    /* top: 840px; */
+    /* margin-top: -116px; */
+    top: 890px;
+    margin-left: -10%;
+    position: absolute;
+  
   }
 
   .Keyboard-With-Glass {
