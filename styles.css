@@ -1,7 +1,8 @@
 body {
   overflow-x: hidden;
-  width: 1440px;
-  height: 1870px;
+  align-items: center;
+  /* width: 1440px; */
+  /* height: 1870px; */
 }
 
 main {
@@ -110,13 +111,14 @@ header {
 
 /* PRODUCT */
 .Opaque-Image {
-  background-color: #c55414;
-  border-radius: 8px;
+  /* background-color: #c55414; */
+  background-color: #ff9b62;
+  border-radius: 10px;
 }
 .Opaque-Image img {
   width: 225px;
   height: 480px;
-  mix-blend-mode: darken;
+  mix-blend-mode: normal;
 }
 
 .Keyboard-With-Glass img {
@@ -219,7 +221,7 @@ header {
 } 
 
 .square2{
-   margin-left: 1110px;
+   margin-left: 1030px;
    margin-top:-1440px;
    position: absolute;
 } 
@@ -239,8 +241,9 @@ footer {
 @media (min-width: 300px) and (max-width: 428px) {
   body {
     overflow-x: hidden;
-    width: 375px;
-    height: 3007px;
+    align-self: center;
+    /* width: 375px; */
+    /* height: 3007px; */
   }
 
   header {
@@ -380,8 +383,9 @@ footer {
 /* MEDIA QUERY FOR TABLET */
 @media (min-width: 768px) and (max-width: 1023px) {
   body {
-    width: 768px;
-    height: 2128px;
+    /* width: 768px; */
+    /* height: 2128px; */
+    align-items: center;
     overflow-x: hidden;
   }
 
