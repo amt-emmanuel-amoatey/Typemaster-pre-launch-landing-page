@@ -1,5 +1,5 @@
 body {
-  overflow-x: hidden;
+  overflow-x: hidden;  
 }
 
 main {
@@ -225,17 +225,17 @@ header img{
   border-radius: 8px;
 }
 /* DECORATIVE SQUARES */
-/* .square1{
-  margin-top: -660px;
-  margin-left: -280px;
+.square1{
+  left: 1305px;
+  top: 219px;
   position: absolute;
 } 
 
 .square2{
-   margin-left: 1030px;
-   margin-top:-1440px;
+   left: -120px;
+   top: 960px;
    position: absolute;
-}  */
+} 
 
 /* FOOTER */
 footer {
