@@ -85,7 +85,6 @@ header img{
   font-size: 18px;
   line-height: 26px;
   font-weight: 500;
-  /* margin-top: -15%; */
   margin-top: 15%;
   color: #7b8bad;
 }
@@ -162,7 +161,8 @@ header img{
 
 .Description {
   margin-top: 134px;
-  margin-left: 125px;
+  /* margin-left: 125px; */
+  margin-left: -115px;
   width: 255px;
   height: 265px;
 }
@@ -240,6 +240,7 @@ header img{
   height: 65px;
   border-radius: 8px;
 }
+
 /* DECORATIVE SQUARES */
 .square1{
   left: 1305px;
