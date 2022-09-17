@@ -38,7 +38,7 @@ header img{
   text-transform: uppercase;
 }
 
-.headerbutton:hover {
+.headerbutton:active {
   cursor: pointer;
   background-color: #162542;
   color: #e8eff2;
@@ -118,7 +118,7 @@ header img{
   line-height: 26px;
 }
 
-.btn-container button:hover {
+.btn-container button:active {
   background-color: #ff9b62;
   color: white;
   cursor: pointer;
@@ -128,6 +128,17 @@ header img{
 .Opaque-Image img {
   width: 225px;
   height: 480px;
+  border-radius: 8px;
+}
+
+.opacity{
+  background-color: #e36117;
+  width: 225px;
+  height: 480px;
+  position: relative;
+  left: -46.2rem;
+  opacity: 0.8;
+  border-radius: 8px;
 }
 
 .Keyboard-With-Glass img {
@@ -424,6 +435,8 @@ footer {
     font-size: 12px;
     align-content: center;
     margin-top: 20%;
+    width: 100%;
+    padding: 10%;
   }
 }
 
