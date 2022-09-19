@@ -514,7 +514,7 @@ footer {
   }
 
   .Product {
-    margin-top: 110px;
+    margin-top: 47px;
   }
   
 
@@ -544,7 +544,7 @@ footer {
     align-items: center;
     width: 689px;
     height: 108px;
-    margin: 600px 40px 0 40px;
+    margin: 400px 40px 0 40px;
     justify-content: space-around;
 
   }
@@ -570,7 +570,7 @@ footer {
 
   .Feature {
     display: grid;
-    margin: 400px 40px 0 40px;
+    margin: 149px  0 40px;
     column-gap: 30px;
     grid-template-columns: 1fr 1fr;
     gap: 100px;
