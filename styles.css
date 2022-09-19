@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -6,7 +6,7 @@
 }
 
 body {
-  overflow-x: hidden;  
+  overflow-x: hidden;
 }
 
 main {
@@ -22,8 +22,8 @@ header {
   height: 58px;
 }
 
-header img{
-  width:40px;
+header img {
+  width: 40px;
   height: 40px;
 }
 
@@ -73,7 +73,7 @@ header img{
   line-height: 56px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    text-transform: uppercase;
+  text-transform: uppercase;
   color: #162542;
   width: 445px;
   height: 112px;
@@ -81,7 +81,7 @@ header img{
 
 .Content p {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-  Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 18px;
   line-height: 26px;
   font-weight: 500;
@@ -101,7 +101,7 @@ header img{
   border: none;
   border-radius: 8px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-  Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 700;
   color: white;
   text-transform: uppercase;
@@ -111,7 +111,7 @@ header img{
   margin: auto;
   text-transform: uppercase;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-  Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 26px;
@@ -130,7 +130,7 @@ header img{
   border-radius: 8px;
 }
 
-.opacity{
+.opacity {
   background-color: #e36117;
   width: 225px;
   height: 480px;
@@ -161,7 +161,6 @@ header img{
 
 .Description {
   margin-top: 134px;
-  /* margin-left: 125px; */
   margin-left: -115px;
   width: 255px;
   height: 265px;
@@ -181,7 +180,7 @@ header img{
 
 .Description p {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-  Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
@@ -209,7 +208,7 @@ header img{
   width: 255px;
   height: 56px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-  Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 900;
   line-height: 28px;
   font-size: 24px;
@@ -227,8 +226,8 @@ header img{
   font-size: 16px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    color: #7b8bad;
-    margin-top: 10%;
+  color: #7b8bad;
+  margin-top: 10%;
 }
 
 .Icon-container {
@@ -242,22 +241,22 @@ header img{
 }
 
 /* DECORATIVE SQUARES */
-.square1{
+.square1 {
   left: 1305px;
   top: 219px;
   position: absolute;
-} 
+}
 
-.square2{
-   left: -120px;
-   top: 960px;
-   position: absolute;
-} 
+.square2 {
+  left: -120px;
+  top: 960px;
+  position: absolute;
+}
 
 /* FOOTER */
 footer {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-  Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: #7b8bad;
   text-align: center;
   align-self: center;
@@ -276,7 +275,7 @@ footer {
 
   header {
     margin: 24px 24px 0 24px;
-    width:327px;
+    width: 327px;
     height: 48px;
   }
 
@@ -285,13 +284,14 @@ footer {
     margin: 0 24px 0 24px;
   }
 
-  .Introduction{
+  .Introduction {
     width: 327px;
-    height: auto;  }
+    height: auto;
+  }
 
-  .Content{
+  .Content {
     width: 327px;
-    height:auto;
+    height: auto;
     margin-top: 10%;
   }
 
@@ -319,15 +319,16 @@ footer {
     margin-top: 50px;
 
   }
-    .Introduction img {
-      position: absolute;
-      border-radius: 20px;
-      width: 372px;
-      height: 331px;
-      margin-top: 110%;
-      left: 24px;
-    }
-  
+
+  .Introduction img {
+    position: absolute;
+    border-radius: 20px;
+    width: 372px;
+    height: 331px;
+    margin-top: 110%;
+    left: 24px;
+  }
+
   .Product {
     width: 373vw;
     height: 193px;
@@ -346,6 +347,14 @@ footer {
     height: 193px;
     border-radius: 20px;
     margin-top: 0%;
+    opacity: 0.1;
+  }
+
+
+  .Opaque-Image {
+    background-color: #e36117;
+    height: 300px;
+    width: 200px;
   }
 
   .Product .Keyboard-With-Glass img {
@@ -425,10 +434,11 @@ footer {
     margin-top: 15%;
   }
 
-  .square1{
+  .square1 {
     display: none;
   }
-  .square2{
+
+  .square2 {
     display: none;
   }
 
@@ -457,59 +467,76 @@ footer {
     height: 58px;
   }
 
-  .Content{
+  .Content {
     width: 445px;
     height: 312px;
   }
 
-  .Content h4{
+  .Content h4 {
     width: 339px;
     height: 96px;
     font-size: 48px;
   }
 
-  .Content p{
+  .Content p {
     width: 339px;
     height: 78px;
     font-size: 16px;
     margin-top: 20px;
   }
 
-  .btn-container{
+  .btn-container {
     width: 344px;
     height: 58px;
-    column-gap:42px ;
+    column-gap: 42px;
   }
 
-  .btn-container button{
+  .btn-container button {
     width: 224px;
     height: 58px;
   }
 
-  .btn-container p{
+  .btn-container p {
     font-size: 16px;
   }
-  
-  .Introduction{
+
+  .Introduction {
     column-gap: 60px;
     width: 886px;
     height: 425px;
   }
 
-  .Introduction img{
+  .Introduction img {
     width: 321px;
     height: 425px;
     margin-right: 350px;
     object-fit: contain;
-  } 
+  }
 
-  .Product{
+  .Product {
     margin-top: 110px;
   }
+  
 
-  .Product img {
-    border-radius: 30px;
+  .Opaque-Image img{
+    width: 214px;
+    height: 320px;
   }
+  
+  .Keyboard-With-Glass img{
+    width: 445px;
+    height: 320px;
+  }
+
+  .opacity {
+  background-color: #e36117;
+  width: 214px;
+  height: 320px;
+  position: relative;
+  left: -44.9rem;
+  opacity: 0.8;
+  border-radius: 8px;
+}
 
   .Description {
     position: absolute;
@@ -522,7 +549,7 @@ footer {
 
   }
 
-  .Description h4{
+  .Description h4 {
     width: 255px;
     height: 108px;
     padding: 0;
@@ -557,14 +584,15 @@ footer {
     margin-top: 20%;
   }
 
-  .Icon-feature h4{
+  .Icon-feature h4 {
     margin-top: 20%;
   }
 
-  .square1{
+  .square1 {
     display: none;
   }
-  .square2{
+
+  .square2 {
     display: none;
   }
 
@@ -580,4 +608,3 @@ footer {
     font-size: 16px;
   }
 }
-
