@@ -50,6 +50,7 @@ header img {
   justify-content: space-between;
   width: 1110px;
   height: 480px;
+  margin-top: -20px;
 }
 
 .Introduction img {
@@ -156,7 +157,8 @@ header img {
   display: flex;
   width: 1110px;
   height: 480px;
-  margin-top: 70px;
+  margin-top: 100px;
+  
 }
 
 .Description {
@@ -243,13 +245,13 @@ header img {
 /* DECORATIVE SQUARES */
 .square1 {
   left: 1305px;
-  top: 219px;
+  top: 200px;
   position: absolute;
 }
 
 .square2 {
   left: -120px;
-  top: 960px;
+  top: 970px;
   position: absolute;
 }
 
@@ -259,7 +261,6 @@ footer {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: #7b8bad;
   text-align: center;
-  align-self: center;
   padding: 3%;
   font-size: 16px;
   margin-top: 10%;
@@ -287,6 +288,7 @@ footer {
   .Introduction {
     width: 327px;
     height: auto;
+    margin-top: 30px;
   }
 
   .Content {
@@ -325,7 +327,7 @@ footer {
     border-radius: 20px;
     width: 372px;
     height: 331px;
-    margin-top: 110%;
+    margin-top: 105%;
     left: 24px;
   }
 
@@ -544,7 +546,7 @@ footer {
     align-items: center;
     width: 689px;
     height: 108px;
-    margin: 400px 40px 0 40px;
+    margin: 450px 40px 0 40px;
     justify-content: space-around;
 
   }
@@ -570,7 +572,7 @@ footer {
 
   .Feature {
     display: grid;
-    margin: 149px  0 40px;
+    margin: 300px  0 40px;
     column-gap: 30px;
     grid-template-columns: 1fr 1fr;
     gap: 100px;
