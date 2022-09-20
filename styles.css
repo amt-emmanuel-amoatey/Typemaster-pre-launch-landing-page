@@ -36,6 +36,7 @@ header img {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: #162542;
   text-transform: uppercase;
+  padding: 10px;
 }
 
 .headerbutton:active {
