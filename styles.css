@@ -127,7 +127,8 @@ header img {
 
 /* PRODUCT */
 .Opaque-Image img {
-  width: 225px;
+  /* width: 225px; */
+  width: 223.5px;
   height: 480px;
   border-radius: 8px;
 }
@@ -522,7 +523,8 @@ footer {
   
 
   .Opaque-Image img{
-    width: 214px;
+    /* width: 214px; */
+    width: 213px;
     height: 320px;
   }
   
