@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  align-content: center;
 }
 
 body {
@@ -57,7 +56,7 @@ header img {
 .Introduction img {
   width: 540px;
   height: 480px;
-  border-radius: 8px;
+  border-radius: 20px;
   margin-top: 10%;
 }
 
@@ -130,23 +129,23 @@ header img {
   /* width: 225px; */
   width: 223.5px;
   height: 480px;
-  border-radius: 8px;
+  border-radius: 20px;
 }
 
 .opacity {
-  background-color: #e36117;
+  background-color: rgb(228,97,23);
   width: 225px;
   height: 480px;
   position: relative;
   left: -46.2rem;
-  opacity: 0.8;
-  border-radius: 8px;
+  opacity: 0.9;
+  border-radius: 20px;
 }
 
 .Keyboard-With-Glass img {
   width: 455px;
   height: 480px;
-  border-radius: 8px;
+  border-radius: 20px;
 }
 
 .Keyboards {
@@ -160,7 +159,6 @@ header img {
   width: 1110px;
   height: 480px;
   margin-top: 100px;
-  
 }
 
 .Description {
@@ -188,6 +186,7 @@ header img {
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
+  margin-top: 27px;
   color: #7b8bad;
   width: 255px;
   height: 130px;
@@ -197,7 +196,7 @@ header img {
 .Feature {
   display: grid;
   grid-template-columns: auto auto auto auto;
-  margin-top: 20%;
+  margin-top: 168px;
   column-gap: 30px;
   width: 1110px;
   height: 320px;
@@ -246,7 +245,11 @@ header img {
 
 /* DECORATIVE SQUARES */
 .square1 {
+  background-color: #e8eff2;
+  border-radius: 20px;
   left: 1305px;
+  width:136px ;
+  height: 240px;
   top: 200px;
   position: absolute;
 }
@@ -321,7 +324,6 @@ footer {
     width: 367px;
     height: 48px;
     margin-top: 50px;
-
   }
 
   .Introduction img {
@@ -459,6 +461,7 @@ footer {
 @media (min-width: 768px) and (max-width: 1023px) {
   body {
     overflow-x: hidden;
+    width: 698px;
   }
 
   main {
@@ -613,3 +616,4 @@ footer {
     font-size: 16px;
   }
 }
+
