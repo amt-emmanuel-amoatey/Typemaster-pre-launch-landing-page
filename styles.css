@@ -132,7 +132,7 @@ header img {
   border-radius: 20px;
 }
 
-.opacity {
+/* .opacity {
   background-color: rgb(228,97,23);
   width: 225px;
   height: 480px;
@@ -140,7 +140,7 @@ header img {
   left: -46.2rem;
   opacity: 0.9;
   border-radius: 20px;
-}
+} */
 
 .Keyboard-With-Glass img {
   width: 455px;
@@ -163,7 +163,7 @@ header img {
 
 .Description {
   margin-top: 134px;
-  margin-left: -115px;
+  margin-left: 125px;
   width: 255px;
   height: 265px;
 }
@@ -348,20 +348,27 @@ footer {
     height: 193px;
   }
 
-  .Product .Opaque-Image img {
+  .Product  {
+    /* width: 129px; */
+    /* height: 193px; */
+    /* border-radius: 20px; */
+    /* margin-top: 0%; */
+    /* opacity: 0.1; */
+  }
+  .Opaque-Image img{
     width: 129px;
-    height: 193px;
-    border-radius: 20px;
-    margin-top: 0%;
-    opacity: 0.1;
+      height: 193px;
+      border-radius: 20px;
+      margin-top: 0%;
+
   }
 
 
-  .Opaque-Image {
+  /* .Opaque-Image {
     background-color: #e36117;
     height: 300px;
     width: 200px;
-  }
+  } */
 
   .Product .Keyboard-With-Glass img {
     width: 220px;
@@ -536,7 +543,7 @@ footer {
     height: 320px;
   }
 
-  .opacity {
+  /* .opacity {
   background-color: #e36117;
   width: 214px;
   height: 320px;
@@ -544,7 +551,7 @@ footer {
   left: -44.9rem;
   opacity: 0.8;
   border-radius: 8px;
-}
+} */
 
   .Description {
     position: absolute;
