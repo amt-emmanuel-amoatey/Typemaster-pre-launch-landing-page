@@ -1,5 +1,5 @@
 # Typemaster-Pre-Launch-Landing-Page
-This is a solution to Phase Project from [Amalitech Training Acadamy](www.amalitech.org).
+This is a solution to Phase Project from [Amalitech Training Acadamy](http://amalitech.org/).
 Amalitech seeks to empower the next generation of technology leaders in Africa
 #### OBJECTIVE 
 - to view the optimal layout depending on their various device screen
