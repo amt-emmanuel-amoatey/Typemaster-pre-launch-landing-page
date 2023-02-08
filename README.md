@@ -20,8 +20,9 @@ Amalitech seeks to empower the next generation of technology leaders in Africa
 #### CHALLENGE ENCOUNTED
 - Keyboard image with phone had quite a distinctive color in the interphase with which is somehow difficul to achieve with CSS
 #### Author
-- Amoatey (Cray) Emmanuel
+- Amoatey [(Cray)](https://twitter.com/Jiggy_Cray) Emmanuel
 - Github [Amoatey](https://github.com/Amoatey)
+
 
 
 
